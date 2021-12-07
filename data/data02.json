@@ -1,0 +1,650 @@
+{
+  "scene": [
+    {
+      "name" : "plate",
+      "color": [
+        112,
+        231,
+        145
+      ],
+      "center" : [
+        1.5,
+        -2.5,
+        6
+      ],
+      "shine": 0,
+      "mirror": 0,
+      "transp": 0.8,
+      "refr": 1.33,
+      "surfaces": [
+        {
+          "type": "plane",
+          "vis": 1,
+          "above": 1,
+          "move": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotate": [
+            0,
+            0,
+            0
+          ],
+          "a": 0,
+          "b": 1,
+          "c": 0,
+          "d": -0.35,
+          "limiters": [
+            {
+              "type": "elliptical paraboloid",
+              "vis": 0,
+              "above": -1,
+              "move": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ],
+              "rotate": [
+                -90,
+                0,
+                0
+              ],
+              "a": 0.8,
+              "b": 0.2,
+              "c": 0.8,
+              "limiters": []
+            }
+          ]
+        },
+        {
+          "type": "elliptical paraboloid",
+          "vis": 1,
+          "above": 1,
+          "move": [
+            0,
+            0.35,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotate": [
+            -90,
+            0,
+            0
+          ],
+          "a": 0.8,
+          "b": 0.2,
+          "c": 0.8,
+          "limiters": [
+            {
+              "type": "plane",
+              "vis": 0,
+              "above": -1,
+              "move": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ],
+              "rotate": [
+                0,
+                0,
+                0
+              ],
+              "a": 0,
+              "b": 1,
+              "c": 0,
+              "d": -1,
+              "limiters": []
+            },
+            {
+              "type": "plane",
+              "vis": 0,
+              "above": 1,
+              "move": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ],
+              "rotate": [
+                0,
+                0,
+                0
+              ],
+              "a": 0,
+              "b": 1,
+              "c": 0,
+              "d": 0,
+              "limiters": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name" : "glass1",
+      "color": [
+        22,
+        156,
+        78
+      ],
+      "center" : [
+        -1.7,
+        -1.75,
+        5.5
+      ],
+      "shine": 50,
+      "mirror": 0.6,
+      "transp": 0.7,
+      "refr": 0,
+      "surfaces": [
+        {
+          "type": "plane",
+          "vis": 1,
+          "above": 1,
+          "move": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotate": [
+            0,
+            0,
+            0
+          ],
+          "a": 0,
+          "b": 1,
+          "c": 0,
+          "d": 0.75,
+          "limiters": [
+            {
+              "type": "elliptical cylinder",
+              "vis": 0,
+              "above": -1,
+              "move": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ],
+              "rotate": [
+                90,
+                0,
+                0
+              ],
+              "a": 0.5,
+              "b": 0.35,
+              "c": 0.8,
+              "limiters": []
+            }
+          ]
+        },
+        {
+          "type": "elliptical cylinder",
+          "vis": 1,
+          "above": 1,
+          "move": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotate": [
+            90,
+            0,
+            0
+          ],
+          "a": 0.5,
+          "b": 0.35,
+          "c": 0.8,
+          "limiters": [
+            {
+              "type": "plane",
+              "vis": 0,
+              "above": -1,
+              "move": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ],
+              "rotate": [
+                0,
+                0,
+                0
+              ],
+              "a": 0,
+              "b": 1,
+              "c": 0,
+              "d": -0.75,
+              "limiters": []
+            },
+            {
+              "type": "plane",
+              "vis": 0,
+              "above": 1,
+              "move": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ],
+              "rotate": [
+                0,
+                0,
+                0
+              ],
+              "a": 0,
+              "b": 1,
+              "c": 0,
+              "d": 0.75,
+              "limiters": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name" : "glass2",
+      "color": [
+        24,
+        46,
+        101
+      ],
+      "center" : [
+        3,
+        -1.75,
+        8
+      ],
+      "shine": 100,
+      "mirror": 0.3,
+      "transp": 0,
+      "refr": 0,
+      "surfaces": [
+        {
+          "type": "plane",
+          "vis": 1,
+          "above": 1,
+          "move": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotate": [
+            0,
+            0,
+            0
+          ],
+          "a": 0,
+          "b": 1,
+          "c": 0,
+          "d": 0.75,
+          "limiters": [
+            {
+              "type": "single-cavity hyperboloid",
+              "vis": 0,
+              "above": -1,
+              "move": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ],
+              "rotate": [
+                90,
+                0,
+                0
+              ],
+              "a": 0.5,
+              "b": 0.35,
+              "c": 0.8,
+              "limiters": []
+            }
+          ]
+        },
+        {
+          "type": "single-cavity hyperboloid",
+          "vis": 1,
+          "above": 1,
+          "move": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotate": [
+            90,
+            0,
+            0
+          ],
+          "a": 0.5,
+          "b": 0.35,
+          "c": 0.8,
+          "limiters": [
+            {
+              "type": "plane",
+              "vis": 0,
+              "above": -1,
+              "move": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ],
+              "rotate": [
+                0,
+                0,
+                0
+              ],
+              "a": 0,
+              "b": 1,
+              "c": 0,
+              "d": -0.75,
+              "limiters": []
+            },
+            {
+              "type": "plane",
+              "vis": 0,
+              "above": 1,
+              "move": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ],
+              "rotate": [
+                0,
+                0,
+                0
+              ],
+              "a": 0,
+              "b": 1,
+              "c": 0,
+              "d": 0.75,
+              "limiters": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name" : "cup",
+      "color": [
+        190,
+        13,
+        100
+      ],
+      "center" : [
+        -0.5,
+        -1.35,
+        12
+      ],
+      "shine": 50,
+      "mirror": 0.6,
+      "transp": 0,
+      "refr": 0,
+      "surfaces": [
+        {
+          "type": "plane",
+          "vis": 1,
+          "above": 1,
+          "move": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotate": [
+            0,
+            0,
+            0
+          ],
+          "a": 0,
+          "b": 1,
+          "c": 0,
+          "d": 1.1,
+          "limiters": [
+            {
+              "type": "elliptical cylinder",
+              "vis": 0,
+              "above": -1,
+              "move": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ],
+              "rotate": [
+                90,
+                0,
+                0
+              ],
+              "a": 1.5,
+              "b": 1.5,
+              "c": 1.5,
+              "limiters": []
+            }
+          ]
+        },
+        {
+          "type": "torus",
+          "vis": 1,
+          "above": -1,
+          "move": [
+            -1.5,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotate": [
+            90,
+            0,
+            0
+          ],
+          "R": 0.6,
+          "r": 0.2,
+          "limiters": [
+        {
+          "type": "elliptical cylinder",
+          "vis": 1,
+          "above": 1,
+          "move": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotate": [
+            90,
+            0,
+            0
+          ],
+          "a": 1.5,
+          "b": 1.5,
+          "c": 1.5,
+          "limiters": [
+            {
+              "type": "plane",
+              "vis": 0,
+              "above": -1,
+              "move": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ],
+              "rotate": [
+                0,
+                0,
+                0
+              ],
+              "a": 0,
+              "b": 1,
+              "c": 0,
+              "d": -1.1,
+              "limiters": []
+            },
+            {
+              "type": "plane",
+              "vis": 0,
+              "above": 1,
+              "move": [
+                0,
+                0,
+                0
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ],
+              "rotate": [
+                0,
+                0,
+                0
+              ],
+              "a": 0,
+              "b": 1,
+              "c": 0,
+              "d": 1.1,
+              "limiters": []
+            }
+          ]
+        }
+      ]
+    }
+      ]
+    },
+    {
+      "name" : "ground",
+      "color": [
+        200,
+        100,
+        56
+      ],
+      "center" : [
+        0,
+        -2.5,
+        0
+      ],
+      "shine": 0,
+      "mirror": 0.4,
+      "transp": 0,
+      "refr": 0,
+      "surfaces": [
+        {
+          "type": "plane",
+          "vis": 1,
+          "above": -1,
+          "move": [
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "rotate": [
+            0,
+            0,
+            0
+          ],
+          "a": 0,
+          "b": 1,
+          "c": 0,
+          "d": 0,
+          "limiters": []
+        }
+      ]
+    }
+  ]
+}
+
+

@@ -1,0 +1,5 @@
+#!/bin/bash
+echo { \"dfn\" : \"$(realpath ./data04.json)\", >> config.json
+echo \"lfn\" : \"$(realpath ./data_lights.json)\", >> config.json
+echo \"cfn\" : \"$(realpath ./data_camera.json)\", >> config.json
+echo \"depth\" : 2 } >> config.json
