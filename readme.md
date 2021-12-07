@@ -21,9 +21,9 @@ cd ../../
 # RUN
 
 ```bash
-    cd src/data
-    chmod +x ./make_config
-    ./make_config
-    cd ../build
-    ./src $(realpath ../data/config.json) -no-gui
+cd src/data
+chmod +x ./make_config
+./make_config
+cd ../build
+./src $(realpath ../data/config.json) -no-gui
 ```
